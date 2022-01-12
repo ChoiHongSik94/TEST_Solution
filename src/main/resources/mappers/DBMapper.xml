@@ -11,7 +11,7 @@
             from dual
         ]]>
     </select>
-
+ㄴㅇㅁㄻㄴㅇㄹㄴㅇ
 
     <!-- select 조건 절 조회 : 한개 값 : 동등 서브 쿼리 -->
     <select id="userInfo" resultType="map">
