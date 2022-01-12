@@ -1,6 +1,10 @@
 package com.project.solutionpackage.controller;
 
 import com.project.solutionpackage.model.Return_DB_Json_Model;
+<<<<<<< HEAD
+=======
+import com.sun.org.apache.xpath.internal.operations.Mod;
+>>>>>>> 559b4f2 (Initial commit)
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -59,7 +63,11 @@ public class ThymeLeafController {
     // [경로 지정 : http://localhost:7000/testThymeleafThree?idx=1&name=투케이]
     // [get 로직 : pTag 라는 key에 파라미터 값으로 들어온 데이터를 model 객체에 매핑해 testThymeleaf.html로 리턴합니다]
     // [html 로직 : testThymeleaf.html은 리턴 받은 pTag key 값을 불러와서 데이터를 표시해줍니다]
+<<<<<<< HEAD
     /**@GetMapping("/testThymeleafThree")
+=======
+    @GetMapping("/testThymeleafThree")
+>>>>>>> 559b4f2 (Initial commit)
     public String testThymeleafThree(@RequestParam Map<String, String> param, Model model){
         //input으로 들어온 파라미터 데이터 확인 실시
         System.out.println("");
@@ -77,6 +85,10 @@ public class ThymeLeafController {
 
         model.addAttribute("pTag", return_db_json_model); //value 값에 객체를 지정
         return "testThymeleaf"; //testThymeleaf.html 호출
+<<<<<<< HEAD
     }*/
+=======
+    }
+>>>>>>> 559b4f2 (Initial commit)
 
 }

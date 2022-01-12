@@ -20,7 +20,11 @@ public class Insert_DB_UserInfo_Model {
     private String addr;
     private String rank;
     private String marri;
+<<<<<<< HEAD
     private String familly;
+=======
+    private String famlly;
+>>>>>>> 559b4f2 (Initial commit)
     private String hobby;
 
 }

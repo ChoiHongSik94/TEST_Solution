@@ -11,8 +11,13 @@
             from dual
         ]]>
     </select>
+<<<<<<< HEAD
 ㄴㅇㅁㄻㄴㅇㄹㄴㅇ
 ㄻㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
+=======
+
+
+>>>>>>> 559b4f2 (Initial commit)
     <!-- select 조건 절 조회 : 한개 값 : 동등 서브 쿼리 -->
     <select id="userInfo" resultType="map">
         <![CDATA[
@@ -22,11 +27,14 @@
         ]]>
     </select>
 
+<<<<<<< HEAD
     <select id = "userList" resultType = "List">
         select *
             from testUser
     </select>
 
+=======
+>>>>>>> 559b4f2 (Initial commit)
 
     <!-- select 조건 절 조회 : like and 비교 연산 -->
     <select id="userInfoList" resultType="map">

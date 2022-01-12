@@ -35,8 +35,11 @@ public class DBService {
         return result; //컨트롤러에 리턴 실시
     }
 
+<<<<<<< HEAD
     public List<String> userList(){return dbMapper.userList();}
 
+=======
+>>>>>>> 559b4f2 (Initial commit)
 
     // [DBMapper 인터페이스 지정 >> DBApiController 리턴 값 지정]
     public List<Map<String, Object>> userInfoList(String dept, int idx) {
