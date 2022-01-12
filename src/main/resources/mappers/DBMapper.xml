@@ -11,14 +11,12 @@
             from dual
         ]]>
     </select>
-<<<<<<< HEAD
-ㄴㅇㅁㄻㄴㅇㄹㄴㅇ
-ㄻㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
-        서일태ㅇㅇ
+    <!--<<<<<<< HEAD
+    서일태
 =======
 
 
->>>>>>> 559b4f2 (Initial commit)
+>>>>>>> 559b4f2 (Initial commit)-->
     <!-- select 조건 절 조회 : 한개 값 : 동등 서브 쿼리 -->
     <select id="userInfo" resultType="map">
         <![CDATA[
