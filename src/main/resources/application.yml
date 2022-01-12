@@ -12,7 +12,11 @@ spring:
 
 
 server:
+<<<<<<< HEAD
   port: 8090
+=======
+  port: 7000
+>>>>>>> 559b4f2 (Initial commit)
 
 
 

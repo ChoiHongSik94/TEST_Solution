@@ -28,7 +28,10 @@ public interface DBMapper {
     // [DBMapper.xml 쿼리에서 선언한 변수 개수 및 타입에 맞게 파라미터 선언]
     List<Map<String, Object>> userInfoList(String dept, int idx); // 리턴값으로 List 사용 [출력]
 
+<<<<<<< HEAD
     List<String> userList();
+=======
+>>>>>>> 559b4f2 (Initial commit)
 
     // [DBMapper.xml 쿼리에서 선언한 변수 개수 및 타입에 맞게 파라미터 선언]
     int insertUser(Insert_DB_UserInfo_Model user); // 리턴값으로 int 사용 [상태값 확인 성공, 실패 여부]

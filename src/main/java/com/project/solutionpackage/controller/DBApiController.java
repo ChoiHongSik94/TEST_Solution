@@ -5,11 +5,22 @@ import com.project.solutionpackage.model.Return_DB_Json_Model;
 import com.project.solutionpackage.service.DBService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.*;
+=======
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+>>>>>>> 559b4f2 (Initial commit)
 
 import java.util.Map;
 
 // 로그
+<<<<<<< HEAD
+=======
+@SuppressWarnings("ALL")
+>>>>>>> 559b4f2 (Initial commit)
 @Slf4j
 //log.debug("[response] : {}", new Return_DB_Json_Model("T", dbService.date()));
 
@@ -43,7 +54,11 @@ public class DBApiController {
     // [output : 모델에서 설정한 return 타입으로 결과를 반환합니다]
     @GetMapping("/date")
     public Return_DB_Json_Model date() {
+<<<<<<< HEAD
         System.out.println("");
+=======
+        System.out.println();
+>>>>>>> 559b4f2 (Initial commit)
         System.out.println("[DBApiController] : [date]");
         System.out.println("");
 
@@ -54,6 +69,10 @@ public class DBApiController {
         return new Return_DB_Json_Model("T", dbService.date());
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 559b4f2 (Initial commit)
     // [post : Map 방식]
     // [경로 지정 : http://localhost:7000/userInfo?idx=5]
     // [input : 서비스에서 설정한 파라미터 개수와 같아야합니다]
@@ -107,6 +126,10 @@ public class DBApiController {
 
 
     // [post : Map 방식]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 559b4f2 (Initial commit)
     // [경로 지정 : http://localhost:7000/insertUser?idx=61&name=towk&sex=m&age=28&dept=개발부&phone=01012345678&addr=서울&rank=연구원&marri=x&familly=5&hobby=코딩]
     // [input : 서비스에서 설정한 파라미터 개수와 같아야합니다]
     // [output : 모델에서 설정한 return 타입으로 결과를 반환합니다]
@@ -123,7 +146,11 @@ public class DBApiController {
         System.out.println("[request addr] : " + String.valueOf(user.getAddr()));
         System.out.println("[request rank] : " + String.valueOf(user.getRank()));
         System.out.println("[request marri] : " + String.valueOf(user.getMarri()));
+<<<<<<< HEAD
         System.out.println("[request familly] : " + String.valueOf(user.getFamilly()));
+=======
+        System.out.println("[request familly] : " + String.valueOf(user.getFamlly()));
+>>>>>>> 559b4f2 (Initial commit)
         System.out.println("[request hobby] : " + String.valueOf(user.getHobby()));
         System.out.println("");
 

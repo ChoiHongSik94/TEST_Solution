@@ -1,12 +1,20 @@
 plugins {
+<<<<<<< HEAD
     id 'org.springframework.boot' version '2.6.2'
+=======
+    id 'org.springframework.boot' version '2.5.2'
+>>>>>>> 559b4f2 (Initial commit)
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
 
 group = 'com.project'
 version = '0.0.1-SNAPSHOT'
+<<<<<<< HEAD
 sourceCompatibility = '11'
+=======
+sourceCompatibility = '1.8'
+>>>>>>> 559b4f2 (Initial commit)
 
 configurations {
     compileOnly {
